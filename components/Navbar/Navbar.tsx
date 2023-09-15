@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Button from "@components/Button/Button";
-import { useAppContext } from "pages/contexts/AppContext";
+import { useAppContext } from "contexts/AppContext";
 
 const rovers: string[] = [
 	"curiosity",

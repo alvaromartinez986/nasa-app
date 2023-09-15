@@ -4,7 +4,7 @@ import UseFetch from "hooks/UseFetch";
 import CardComponent from "@components/CardComponent/CardComponent";
 import GridComponentPaginator from "@components/GridComponent/GridComponentPaginator";
 import Loading from "@components/Loading/Loading";
-import FilterPhotos from "./components/FilterPhotos";
+import FilterPhotos from "@components/Filter/FilterPhotos";
 
 type Photos = {
 	photos: Photo[];
